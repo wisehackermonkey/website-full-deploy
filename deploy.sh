@@ -63,11 +63,6 @@ cd ~/github
 
 
 
-printf "manual process\n\n\n"
-docker login
-
-printf "download private ghost blog backup data\n\n\n"
-[ ! -d "${HOME}/github/blog-backup" ] && git clone https://github.com/wisehackermonkey/blog-backup.git
 
 
 
@@ -95,6 +90,13 @@ FLAG2=999999999
 FLAG3=111111111
 PORT=3000">>.env
 docker-compose up -d && printf "business_card_puzzle [Done]\n\n\n"
+
+printf "manual process\n\n\n"
+docker login
+
+printf "download private ghost blog backup data\n\n\n"
+[ ! -d "${HOME}/github/blog-backup" ] && git clone https://github.com/wisehackermonkey/blog-backup.git
+
 
 printf "-----------------------------------------"
 
