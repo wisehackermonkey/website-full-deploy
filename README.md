@@ -20,6 +20,7 @@
 <!-- ### -  *[Quick start](#Quick-start)*
 ### -  *[Installation](#Installation)*
 ### -  *[For developers](#For-developers)* -->
+### -  *[Todo](#TODO)*
 ### -  *[Contributors](#Contributors)*
 ### -  *[License](#License)*
 
@@ -49,6 +50,11 @@ chmod +x deploy.sh
 ### 
 ```bash
 ```
+
+-----------------
+# TODO
+- [ ] get working isntall webtorrent-demo has issuees with broswerfuy install
+- [ ] ___________ 
 
 -----------------
 # Contributors
