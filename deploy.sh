@@ -83,9 +83,15 @@ printf "website-router [Starting]\n\n\n" &&             cd ~/github/website-rout
 printf "chirpweb [Starting]\n\n\n" &&             cd ~/github/chirpweb && docker-compose up -d && printf "chirpweb [Done]\n\n"
 printf "shitty-90s-website [Starting]\n\n\n" &&   cd ~/github/shitty-90s-website && docker-compose up -d && printf "shitty-90s-website [Done]\n\n\n"
 printf "blank-black-website [Starting]\n\n\n" &&  cd ~/github/blank-black-website && docker-compose up -d && printf "blank-black-website [Done]\n\n\n"
-printf "business_card_puzzle [Starting]\n\n\n" && cd ~/github/business_card_puzzle && docker-compose up -d && printf "business_card_puzzle [Done]\n\n\n"
 ## Special snowflake ones
 printf "website [Starting]\n\n\n" &&             cd ~/github/website && docker-compose -f ./docker-compose.deploy.yml up -d && printf "website [Done]\n\n"
 printf "remash [Starting]\n\n\n" &&               cd ~/github/remash && docker-compose -f ./docker-compose.deploy.yml up -d && printf "remash [Done]\n\n\n"
 printf "pixel-artist [Starting]\n\n\n" &&         cd ~/github/pixel-artist && docker-compose -f ./docker-compose.deploy.yml up -d && printf "pixel-artist [Done]\n\n\n"
 printf "blog [Starting]\n\n\n" &&         cd ~/github/blog-backup && docker-compose -f ./docker-compose.deploy.yml up -d && printf "blog [Done]\n\n\n"
+
+printf "business_card_puzzle [Starting]\n\n\n" && cd ~/github/business_card_puzzle 
+echo "FLAG1=123456789
+FLAG2=999999999
+FLAG3=111111111
+PORT=3000">>.env
+docker-compose up -d && printf "business_card_puzzle [Done]\n\n\n"
