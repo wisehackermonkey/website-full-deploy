@@ -50,15 +50,15 @@ mkdir ~/github
 cd ~/github
 
 # download all my repos
-git clone https://github.com/wisehackermonkey/website.git
-git clone https://github.com/wisehackermonkey/website-router.git
-git clone https://github.com/wisehackermonkey/chirpweb.git
-git clone https://github.com/wisehackermonkey/remash.git
-git clone https://github.com/wisehackermonkey/shitty-90s-website.git
-git clone https://github.com/wisehackermonkey/blank-black-website.git
-git clone https://github.com/wisehackermonkey/webtorrent-demo.git
-git clone https://github.com/wisehackermonkey/pixel-artist.git
-git clone https://github.com/wisehackermonkey/business_card_puzzle.git
+git clone https://github.com/wisehackermonkey/website.git && echo "website\n"
+git clone https://github.com/wisehackermonkey/website-router.git && echo "website-router\n"
+git clone https://github.com/wisehackermonkey/chirpweb.git && echo "chirpweb\n"
+git clone https://github.com/wisehackermonkey/remash.git && echo "remash\n"
+git clone https://github.com/wisehackermonkey/shitty-90s-website.git && echo "shitty-90s-website\n"
+git clone https://github.com/wisehackermonkey/blank-black-website.git && echo "blank-black-website\n"
+git clone https://github.com/wisehackermonkey/webtorrent-demo.git && echo "webtorrent-demo\n"
+git clone https://github.com/wisehackermonkey/pixel-artist.git && echo "pixel-artist\n"
+git clone https://github.com/wisehackermonkey/business_card_puzzle.git && echo "business_card_puzzle\n"
 
 
 
