@@ -95,3 +95,7 @@ FLAG2=999999999
 FLAG3=111111111
 PORT=3000">>.env
 docker-compose up -d && printf "business_card_puzzle [Done]\n\n\n"
+
+printf "-----------------------------------------"
+
+printf "\n\n\nServer is now fully setup! Enjoy :)\n\n\n"
