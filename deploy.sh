@@ -10,7 +10,7 @@ VERSION=$(curl --silent https://api.github.com/repos/docker/compose/releases/lat
 
 command -v git >/dev/null 2>&1 ||
 { echo >&2 "Git is not installed. Installing..";
-  apt install git
+  apt install git -y
 }
 # authenticate git 
 git config --global user.email "oranbusiness@gmail.com"
@@ -20,7 +20,7 @@ command -v docker >/dev/null 2>&1 ||
 { echo >&2 "docker is not installed. Installing..";
 # install docker
 sudo apt update -y
-sudo apt install apt-transport-https ca-certificates curl software-properties-common
+sudo apt install apt-transport-https ca-certificates curl software-properties-common -y
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
 sudo apt update -y
