@@ -27,13 +27,19 @@
 
 
 # Installation
+### 
 ```bash
+cd ~
+git clone https://github.com/wisehackermonkey/website-full-deploy.git
+cd website-full-deploy
+chmod +x deploy.sh
+./deploy.sh
 ```
 
-<!-- ----------------- -->
-<!-- # Screenshots -->
-<!-- - <img src="assets/_____________" width="400">  -->
-<!-- -  -->
+-----------------
+# Screenshots
+- <img src="https://i.imgur.com/FuOrB1s.png" width="400"> 
+- 
 
 
 
